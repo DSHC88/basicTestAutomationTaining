@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/home/dist/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Testing Page</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="encab">
+            <img class="logo-oficial" src="Assets/logo_sophos_home.png" alt="Logo de de Sophos">
+            <h1>Basic Testing Training</h1>
+        </div>
+        <div class="nav-bar">
+            <ul class="list-content">
+                <a href="pages/_clickingDemo/_clickingDemo.html" target="_blank">Clicking Demo</a>
+                <a href="pages/_listPickerDemo/_listPicker.html">List picker Demo</a>
+                <a href="pages/_buttonDemo/_buttonDemo.html">Button Demo</a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <aside id='aside1'>
+            <h3>Form</h3>
+            <div class="names">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <h3>Gender</h3>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <h3>Contact Information</h3>
+            <div class="contact">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" maxlength="10">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <input id="btnsubimit" type="submit" value="Submit" onclick="validarCampos()">
+        </aside>
+        <div class="main">
+            <h3>Seccion de Iframe</h3>
+            <iframe src="pages/home/button.html" frameborder="100%" title="Seleccion Fecha"></iframe>
+        </div>
+        <aside id='aside2'>
+            <h3>En esta seccion se veran reflejados ciertos datos solicitados.</h3>
+        </aside>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container-our-offices">
+                <h3>Our Offices</h3>
+                <div class="our-offices">
+                    <div class="offices col">
+                        <div>Colombia:</div>
+                        <div>Bogotá</div>
+                        <div>Carrera 11 No. 71 – 73 Piso 4 Edificio Davivienda +(57) 743 3001 Ext. 1001-1002 </div>
+                        <div>Carrera 7 No. 26 – 20 Piso 30 +(57) 743 3001 Ext. 1301 </div>
+                        <div>Medellín Carrera 48 No. 20 – 34 – Ofi. 1009 </div>
+                        <div>Centro Empresarial – Ciudad del Rio +(57) 4 605 1010 </div>
+                        <div>Av Guayabal. Cra 52 N° 14- 30 CEOH- Etapa II Oficina 107 +(57) 4 605 1010 Ext. 2200 </div>
+                    </div>
+                    <div class="offices ch">
+                        <div>Chile: </div>
+                        <div>Santiago of Chile Agustinas 833 – Piso 10, Ofi 101 +(56) 2 2797 1200</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-our-offices">
+                <div class="our-offices">
+                    <div class="offices mex">
+                        <div>México:</div>
+                        <div>Mexico City</div>
+                        <div>Torre Reforma Latino | Paseo de la Reforma 296, piso 41, Colonia Juárez, Alcaldía Cuauhtémoc +(52) 55 5985 4488 Ext. 1101</div>
+                    </div>
+                    <div class="offices pma">
+                        <div>Panamá:</div>
+                        <div>City of Panama</div>
+                        <div>Ciudad del Saber</div>
+                        <div>Edificio 224 Piso 1, Oficina H +(507) 306 3170 Ext. 3538</div>
+                    </div>
+                    <div class="offices usa">
+                        <div>U.S</div>
+                        <div>New York</div>
+                        <div>404 Fifth Avenue Tenant LLC 404 5th Ave</div>
+                        <div>New York, NY 10018, USA 855-5-WEWORK Office 6.049</div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="js/index/index.js"></script>
+
+</body>
+
+</html>

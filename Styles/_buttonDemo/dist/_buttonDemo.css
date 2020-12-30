@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  background-color: rgba(104, 107, 107, 0.123);
+  box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  align-items: center;
+}
+.header .encab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem 0 1rem;
+  padding: 1% 5% 1% 5%;
+  align-items: center;
+}
+.header .encab h1 {
+  color: #383838;
+  font-size: 32px;
+  align-items: center;
+}
+.header .encab .logo-oficial {
+  width: 300px;
+  height: 62px;
+  align-items: center;
+}
+.header .encab img:hover {
+  cursor: pointer;
+}
+
+main {
+  margin: 0 1rem 0 1rem;
+  padding: 1% 5% 1% 5%;
+}
+main .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem;
+}
+main .buttons input {
+  display: flex;
+  justify-content: space-between;
+  width: 15rem;
+  height: 15rem;
+  font-size: 40px;
+}
+main .textarea {
+  margin: 0 1rem 0 1rem;
+  padding: 1% 5% 1% 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+main .textarea input {
+  margin-bottom: 5px;
+  width: 99%;
+  height: 32px;
+}
+main .textarea textarea {
+  width: 99%;
+  height: 10rem;
+  resize: none;
+  font-size: 46px;
+}
+
+footer {
+  margin-top: 5rem;
+  background-color: rgba(104, 107, 107, 0.123);
+  box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.75);
+  height: auto;
+}
+footer .footer {
+  column-gap: 2rem;
+  margin: 0 2rem 0 2rem;
+  height: auto;
+  display: flex;
+}
+footer .footer div {
+  font-size: 12px;
+}
+footer .footer .container-our-offices {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2px;
+  height: auto;
+  width: 50%;
+}
+footer .footer .container-our-offices h3 {
+  margin-top: 0.7rem;
+  color: #525252;
+}
+footer .footer .container-our-offices .our-offices {
+  height: auto;
+}
+footer .footer .container-our-offices .our-offices .offices {
+  margin-top: 0.7rem;
+  color: #707070;
+}
+footer .footer .container-our-offices .our-offices .offices div {
+  margin-top: 10px;
+}
